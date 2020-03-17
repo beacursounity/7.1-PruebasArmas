@@ -37,6 +37,7 @@ public class FlechaScript : MonoBehaviour {
     // CUANDO COLISIONA LA FLECHA LE DECIMOS QUE ES KINEMATICO
     // Y DESTRUIMOS EL SCRIPT PARA QUE LA FLECHA NO SE QUEDE RECTA
     private void OnCollisionEnter(Collision collision) {
+       // print("ha colisionado "+ collision.gameObject.name);
         gameObject.GetComponent<Rigidbody>().isKinematic = true;
         Destroy(this);
     }

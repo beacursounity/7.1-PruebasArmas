@@ -19,7 +19,7 @@ public class MorteroScript : MonoBehaviour {
 		
 	}
 
-    // cuando pulsemos con el raton
+    // cuando pulsemos con el raton encima de nuestro Mortero disparara
     private void OnMouseDown() {
         GameObject proyectil = Instantiate(prefabProyectil,
                                 genPoint.transform.position,
