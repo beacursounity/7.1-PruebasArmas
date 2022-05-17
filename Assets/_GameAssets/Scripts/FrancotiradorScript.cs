@@ -17,20 +17,21 @@ public class FrancotiradorScript : MonoBehaviour {
         // FIJAMOS EL MAXIMO Y EL CURRENT EN LA POSICION ACTUAL
         maxFOV = miCamara.fieldOfView;
         currentFOV = miCamara.fieldOfView;
-
+        print(maxFOV + " " + currentFOV);
     }
     private void Update() {
         // PULSO EL BOTON DERECHO ACERCO LA VISTA AL OBJETIVO
         if (Input.GetMouseButtonDown(1)) {
             Debug.Log("Boton derecho pulsado");
             apuntando = true;
+            //miCamara.SetActive(true);
             mirilla.SetActive(true);
         }
         // CUANDO LO SOLTAMOS
         if (Input.GetMouseButtonUp(1)) {
             Debug.Log("Boton derecho soltado");
             apuntando = false;
-            mirilla.SetActive(false);
+            mirilla.SetActive(false);       
         }
 
         // ESTO ES EL ZOOM DE LA CAMARA
