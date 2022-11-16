@@ -1,0 +1,261 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity2020.2.3f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Volumes/Mac HD 1T/Unity/Pruebas/7.1-PruebasArmas
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50357
+Successfully changed project path to: /Volumes/Mac HD 1T/Unity/Pruebas/7.1-PruebasArmas
+/Volumes/Mac HD 1T/Unity/Pruebas/7.1-PruebasArmas
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 196.95 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.3f1 (8ff31bc5bf5b)
+[Subsystems] Discovering subsystems at path /Applications/Unity2020.2.3f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Volumes/Mac HD 1T/Unity/Pruebas/7.1-PruebasArmas/Assets
+GfxDevice: creating device client; threaded=0
+Renderer: NVIDIA GeForce 9400M OpenGL Engine
+Vendor:   NVIDIA Corporation
+Version:  3.3 NVIDIA-10.4.14 310.90.30.05b27
+GLES:     0
+ GL_ARB_blend_func_extended GL_ARB_ES2_compatibility GL_ARB_explicit_attrib_location GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_occlusion_query2 GL_ARB_sampler_objects GL_ARB_separate_shader_objects GL_ARB_shader_bit_encoding GL_ARB_shading_language_include GL_ARB_texture_rgb10_a2ui GL_ARB_texture_storage GL_ARB_texture_swizzle GL_ARB_timer_query GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_EXT_debug_label GL_EXT_debug_marker GL_EXT_depth_bounds_test GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_mirror_clamp GL_EXT_texture_sRGB_decode GL_APPLE_client_storage GL_APPLE_container_object_shareable GL_APPLE_flush_render GL_APPLE_object_purgeable GL_APPLE_rgb_422 GL_APPLE_row_bytes GL_APPLE_texture_range GL_ATI_texture_mirror_once GL_NV_texture_barrier
+OPENGL LOG: Creating OpenGL 3.3 graphics device ; Context level  <OpenGL 3.3> ; Context handle -1190276096
+Initialize mono
+Mono path[0] = '/Applications/Unity2020.2.3f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity2020.2.3f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity2020.2.3f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56140
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity2020.2.3f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.003678 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 135.81 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  8.481 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.071111 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 3.30 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.925 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity2020.2.3f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.28 seconds
+Refreshing native plugins compatible for Editor in 0.87 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1519 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 194.5 MB.
+System memory in use after: 194.6 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 1946.
+Total: 5.275078 ms (FindLiveObjects: 0.866736 ms CreateObjectMapping: 0.148052 ms MarkObjects: 4.088028 ms  DeleteObjects: 0.168377 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/_GameAssets/BulletTrail/ParticleFirecloud 1.mat
+  artifactKey: Guid(324a0767ee4cf8f448193840251d2de9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/BulletTrail/ParticleFirecloud 1.mat using Guid(324a0767ee4cf8f448193840251d2de9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c8cac384cd5c3313ac0a8566d30e378') in 5.694592 seconds
+  Import took 5.703722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000466 seconds.
+  path: Assets/_GameAssets/BulletTrail/BulletTrail.prefab
+  artifactKey: Guid(d2ec70c814159504cb3e12e99b00b151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/BulletTrail/BulletTrail.prefab using Guid(d2ec70c814159504cb3e12e99b00b151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c50939fc33c9af8b912347b750d6026') in 1.306305 seconds
+  Import took 1.320929 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000597 seconds.
+  path: Assets/_GameAssets/Prefabs/Granada.prefab
+  artifactKey: Guid(8e17b20efd2e9934c92f7f53d83080a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/Prefabs/Granada.prefab using Guid(8e17b20efd2e9934c92f7f53d83080a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71e321074b06a4c11e7dc031ef87f3fb') in 0.070153 seconds
+  Import took 0.075864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000402 seconds.
+  path: Assets/_GameAssets/BulletTrail/ParticleFirecloud 2.mat
+  artifactKey: Guid(c384050bc9ffb4fc8b3543f383c57607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/BulletTrail/ParticleFirecloud 2.mat using Guid(c384050bc9ffb4fc8b3543f383c57607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4741cf1390368f0bf58218002ea02da') in 1.394825 seconds
+  Import took 1.400617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000492 seconds.
+  path: Assets/_GameAssets/Prefabs/Proyectil.prefab
+  artifactKey: Guid(1ed381f78fc2c26438df32f367bf30d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/Prefabs/Proyectil.prefab using Guid(1ed381f78fc2c26438df32f367bf30d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8d56c6153a34ba6ea02c39b8a66db1a') in 0.086858 seconds
+  Import took 0.091996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000396 seconds.
+  path: Assets/_GameAssets/Prefabs/GranadaTrail.prefab
+  artifactKey: Guid(c069854e617b84692b4d02b777680a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/Prefabs/GranadaTrail.prefab using Guid(c069854e617b84692b4d02b777680a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26e1dca7e0dee088521764cb4e67aa34') in 0.640388 seconds
+  Import took 0.647649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000541 seconds.
+  path: Assets/_GameAssets/Prefabs/Flecha.prefab
+  artifactKey: Guid(09ba0ba090e8b4c4e85b7cadea139d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/Prefabs/Flecha.prefab using Guid(09ba0ba090e8b4c4e85b7cadea139d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '344962518dbb52c990028eff25ab24ee') in 0.064891 seconds
+  Import took 0.070418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015116 seconds.
+  path: Assets/_GameAssets/BulletTrail/ParticleFirecloud 1.png
+  artifactKey: Guid(00095c602fca2a24c9aeed3c61129c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/BulletTrail/ParticleFirecloud 1.png using Guid(00095c602fca2a24c9aeed3c61129c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24e7acffd39673b788123c4957f28209') in 2.070127 seconds
+  Import took 2.075847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 415.462859 seconds.
+  path: Assets/_GameAssets/Scripts/FrancotiradorScript.cs
+  artifactKey: Guid(936b9241fbd07144e8e7dcfe1d3b5830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/Scripts/FrancotiradorScript.cs using Guid(936b9241fbd07144e8e7dcfe1d3b5830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8217bb0b61578e9e482b8c3f90cebfab') in 1.268705 seconds
+  Import took 1.273637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 92.128057 seconds.
+  path: Assets/_GameAssets/Scripts/MorteroScript.cs
+  artifactKey: Guid(e31556ac0a86bbc42978b48ba49e73a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/Scripts/MorteroScript.cs using Guid(e31556ac0a86bbc42978b48ba49e73a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddf9235402d0d9fef5e138c21ee8de8a') in 0.010342 seconds
+  Import took 0.015763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002128 seconds.
+  path: Assets/_GameAssets/Scripts/MorteroScript.cs
+  artifactKey: Guid(e31556ac0a86bbc42978b48ba49e73a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/Scripts/MorteroScript.cs using Guid(e31556ac0a86bbc42978b48ba49e73a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddf9235402d0d9fef5e138c21ee8de8a') in 0.008445 seconds
+  Import took 0.014017 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.059063 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.18 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.273 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.07 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1514 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 215.7 MB.
+System memory in use after: 215.8 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 1990.
+Total: 9.776839 ms (FindLiveObjects: 4.303236 ms CreateObjectMapping: 0.284766 ms MarkObjects: 5.096437 ms  DeleteObjects: 0.089503 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 485.099741 seconds.
+  path: Assets/_GameAssets/Scripts/Granada.cs
+  artifactKey: Guid(a35792d71f8c2654b9caaa27b7d3fde0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_GameAssets/Scripts/Granada.cs using Guid(a35792d71f8c2654b9caaa27b7d3fde0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43b6062485bf830ba5580b9d8e3097f0') in 0.354947 seconds
+  Import took 0.360125 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004392 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.73 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.730 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.05 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1514 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 215.9 MB.
+System memory in use after: 216.0 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 1992.
+Total: 10.491722 ms (FindLiveObjects: 5.244486 ms CreateObjectMapping: 0.174098 ms MarkObjects: 5.016727 ms  DeleteObjects: 0.053604 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.067956 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.142 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1514 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 216.1 MB.
+System memory in use after: 216.2 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 1994.
+Total: 8.162829 ms (FindLiveObjects: 0.508808 ms CreateObjectMapping: 0.120395 ms MarkObjects: 7.477876 ms  DeleteObjects: 0.052217 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005663 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.033 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.09 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1514 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 216.5 MB.
+System memory in use after: 216.6 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 1996.
+Total: 6.304872 ms (FindLiveObjects: 0.722170 ms CreateObjectMapping: 0.155348 ms MarkObjects: 5.368891 ms  DeleteObjects: 0.054449 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
