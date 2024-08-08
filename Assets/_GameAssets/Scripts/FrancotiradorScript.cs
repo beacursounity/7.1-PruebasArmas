@@ -17,7 +17,7 @@ public class FrancotiradorScript : MonoBehaviour {
         // FIJAMOS EL MAXIMO Y EL CURRENT EN LA POSICION ACTUAL
         maxFOV = miCamara.fieldOfView;
         currentFOV = miCamara.fieldOfView;
-        print(maxFOV + " " + currentFOV);
+     //   print(maxFOV + " " + currentFOV);
     }
     private void Update() {
         // PULSO EL BOTON DERECHO ACERCO LA VISTA AL OBJETIVO
@@ -55,6 +55,7 @@ public class FrancotiradorScript : MonoBehaviour {
 
         miCamara.fieldOfView = currentFOV;
     }
+
     private void OnMouseDown() {
         // DIRECCION DEL DISPARO
         Vector3 forward = puntoDisparo.forward;
@@ -69,14 +70,14 @@ public class FrancotiradorScript : MonoBehaviour {
         
         // LANZAMOS EL RAYCAST
         // EN EL JUEGO EL PUNTO (RAYO) TENDRA QUE SE LA CAMARA.
-        bool diana = Physics.Raycast(rayo, out hitInfo , 25);
+        bool diana = Physics.Raycast(rayo, out hitInfo , 50);
 
         if (diana) {
             print(hitInfo.collider.gameObject.name);
             // DIBUJA UNA LINEA DE DISPARO 
             Debug.DrawLine(puntoDisparo.position,
                         hitInfo.collider.transform.position,
-                        Color.red, 5);
+                        Color.red, 20);
         } else {
             print("AGUA");
         }

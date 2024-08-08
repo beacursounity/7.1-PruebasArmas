@@ -13,17 +13,12 @@ public class FlechaScript : MonoBehaviour {
 
     bool primeraVez = true;
 
-    /*private void OnTriggerEnter(Collider other) {
-        Debug.Log("ha entrado");
-        gameObject.GetComponent<Rigidbody>().isKinematic = true;
-    }*/
 
     // COGEMOS LA POSICION ACTUAL DEL TRANSFORM Y CUANDO SALGO DEL METODO COJO EL ANTERIOR
     // EN ESTE CAS
     private void FixedUpdate() { // CALCULOS FISICOS SE EJECUTA CADA 0,20 
         currentPos = transform.position;
         // SE METERIA YA QUE EL VECTOR3 SE INICIALIZA A 0,0,0
-        //if (prevPos != null) {
         if(!primeraVez) { 
             difPos = currentPos - prevPos;
             this.transform.forward = difPos.normalized; // EL VECTOR NORMALIZADO ES UNA VECTOR EN BASE 1 
@@ -39,6 +34,7 @@ public class FlechaScript : MonoBehaviour {
     private void OnCollisionEnter(Collision collision) {
        // print("ha colisionado "+ collision.gameObject.name);
         gameObject.GetComponent<Rigidbody>().isKinematic = true;
+        // EL THIS ELIMINA EL SCRIPT
         Destroy(this);
     }
 }
