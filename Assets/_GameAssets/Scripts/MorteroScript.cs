@@ -9,6 +9,7 @@ public class MorteroScript : MonoBehaviour {
     //[SerializeField] GameObject hitParticles;
     [SerializeField] int force = 600;
 
+    AudioSource audioSource;
     //[SerializeField] LineRenderer balaTrail;
     
 
@@ -19,7 +20,8 @@ public class MorteroScript : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		
+        // RECOGER EL SONIDO
+        audioSource = GetComponent<AudioSource>();	
 	}
 
     private void FixedUpdate()
@@ -47,6 +49,8 @@ public class MorteroScript : MonoBehaviour {
 
         //LE AÑADIMOS LA FUERZA
         proyectil.GetComponent<Rigidbody>().AddRelativeForce(Vector3.forward * force);
+        // SONIDO
+        audioSource.Play();
 
         /*Vector3 direccion = genPoint.transform.forward;
         direccion = direccion + genPoint.TransformDirection

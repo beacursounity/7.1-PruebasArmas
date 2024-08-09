@@ -11,13 +11,21 @@ public class Granada : MonoBehaviour {
 
     [SerializeField] int alturaExplosion = 3;
 
+    AudioSource audioSource;
+
     // Use this for initialization
     void Start () {
+        // RECOGER EL SONIDO
+        audioSource = GetComponent<AudioSource>();
+
         Invoke("Explotar", tiempoParaExplosion);	
 	}
 	
 	// Update is called once per frame
 	void Explotar () {
+
+        // SONIDO
+        audioSource.Play();
 
         // RECOGEMOS TODO LO QUE TENGA COLLIDER EN LA POSICION DE LA BOMBA Y CON UN RADIO
         Collider[] cosas = Physics.OverlapSphere(transform.position, radioExplosion);
